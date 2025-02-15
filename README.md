@@ -24,7 +24,18 @@ The packages should be available for all distributions using the GNOME Terminal 
 
    cd alabsater-gnome-terminal
    ```
-2. Run the `install.sh` shell script to start the automated installation.
+2. Run the `install.sh` shell script to start the automated installation with one of following command.
+
+```sh
+# try this
+./install.sh
+
+# or
+bash ./install.sh
+
+# or
+sh ./install.sh
+```
 
 A list of available options can be shown with `-h`, `--help`.
 
