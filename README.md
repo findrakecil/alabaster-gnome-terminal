@@ -1,18 +1,20 @@
+![image of gnome terminal](screenshot.png)
+
 Simple yet elegant GNOME Terminal color theme based on the [Alabaster](https://github.com/tonsky/vscode-theme-alabaster) color palette.
 
 ## Getting started
 
 ### Requirements
 
-The installation script requires [`dconf`][dconf] and `uuidgen` ([`util-linux`][util-linux]) to be available on your _PATH_ to create a new profile and generate a random profile UUID.
+The installation script requires [`dconf`](https://wiki.gnome.org/Projects/dconf) and `uuidgen` ([`util-linux`](https://www.kernel.org/pub/linux/utils/util-linux)) to be available on your _PATH_ to create a new profile and generate a random profile UUID.
 
 Some distributions may require additional package(s):
 
-- `dconf-tools` - transitional package for `dconf-cli` and `dconf-editor` ([Debian][debian-dconf-tools], [Mint][mint-dconf-tools], [Ubuntu][ubuntu-dconf-tools])
-- `dconf-gsettings-backend` to ensure _GSettings_ compatibility ([Debian][debian-dconf-gsettings-backend], [Mint][mint-dconf-gsettings-backend], [Ubuntu][ubuntu-dconf-gsettings-backend])
-- `dconf-cli` to ensure full CLI support ([Debian][debian-dconf-cli], [Mint][mint-dconf-cli], [Ubuntu][ubuntu-dconf-cli])
-- `dconf-service` to ensure D-Bus support for the _GSettings_ backend ([Debian][debian-dconf-service], [Mint][mint-dconf-service], [Ubuntu][ubuntu-dconf-service])
-- `uuid-runtime` to provide runtime components for the Universally Unique ID library ([Debian][debian-uuid-runtime], [Mint][mint-uuid-runtime], [Ubuntu][ubuntu-uuid-runtime])
+- `dconf-tools` - transitional package for `dconf-cli` and `dconf-editor` ([Debian](https://packages.debian.org/search?keywords=dconf-tools), [Mint](https://community.linuxmint.com/software/view/dconf-tools), [Ubuntu](https://packages.ubuntu.com/search?keywords=dconf-tools))
+- `dconf-gsettings-backend` to ensure _GSettings_ compatibility ([Debian](https://packages.debian.org/search?keywords=dconf-gsettings-backend), [Mint](https://community.linuxmint.com/software/view/dconf-gsettings-backend), [Ubuntu](https://packages.ubuntu.com/search?keywords=dconf-gsettings-backend))
+- `dconf-cli` to ensure full CLI support ([Debian](https://packages.debian.org/search?keywords=dconf-cli), [Mint](https://community.linuxmint.com/software/view/dconf-cli), [Ubuntu](https://packages.ubuntu.com/search?keywords=dconf-cli))
+- `dconf-service` to ensure D-Bus support for the _GSettings_ backend ([Debian](https://packages.debian.org/search?keywords=dconf-service), [Mint](https://community.linuxmint.com/software/view/dconf-service), [Ubuntu](https://packages.ubuntu.com/search?keywords=dconf-service))
+- `uuid-runtime` to provide runtime components for the Universally Unique ID library ([Debian](https://packages.debian.org/search?keywords=uuid-runtime), [Mint](https://community.linuxmint.com/software/view/uuid-runtime), [Ubuntu](https://packages.ubuntu.com/search?keywords=uuid-runtime))
 
 The packages should be available for all distributions using the GNOME Terminal by default.
 
